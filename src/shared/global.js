@@ -118,6 +118,8 @@ export const bodyStyles = css`
 	}
 `;
 
+// 글로벌 스타일 추가
+
 export const GlobalStyle = createGlobalStyle`
  body {
    ${bodyStyles}
