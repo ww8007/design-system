@@ -16,6 +16,13 @@ export default {
 			},
 			options: ['tiny', 'small', 'medium', 'large']
 		}
+	},
+	/*
+	 * More on Storybook parameters at:
+	 * https://storybook.js.org/docs/react/writing-stories/parameters#component-parameters
+	 */
+	parameters: {
+		componentSubtitle: '유저나 회사를 나타내는 컴포넌트 입니다.'
 	}
 };
 
